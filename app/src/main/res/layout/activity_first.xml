@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_foreground"
+    tools:context=".First">
+
+<TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="40dp"
+      android:text="Welcome"
+      android:textColor="#A63737"
+      android:textSize="54sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="450dp"
+      android:layout_height="192dp"
+      android:layout_margin="40dp"
+      android:layout_marginTop="12dp"
+      android:text="Weather Matter,\nWe've Got..."
+      android:textAlignment="center"
+      android:textColor="#EFE8E8"
+      android:textSize="40sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:src="@drawable/baseline_settings_system_daydream_24"
+      android:backgroundTint="@color/white"
+      app:layout_constraintEnd_toEndOf="@+id/textView"
+      app:layout_constraintHorizontal_bias="0.478"
+      app:layout_constraintStart_toStartOf="@+id/textView"
+      app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+  <TextView
+      android:id="@+id/own"
+      android:layout_width="347dp"
+      android:layout_height="163dp"
+      android:layout_marginTop="220dp"
+      android:text="Created By Tech-Subh"
+      android:textAlignment="center"
+      android:textColor="#838383"
+      android:textStyle="bold"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.75"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
